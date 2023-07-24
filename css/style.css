@@ -95,7 +95,7 @@ span{
 .titlePic .profile-pic{
     width: 50%;
     margin-left: 50%;
-    margin-bottom:50%;
+    margin-bottom:100%;
     border-radius: 50%;
     border: 5px solid blue;
 }
@@ -239,7 +239,7 @@ footer#contact p#copy {
         flex-direction: column;
     }
     .about {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .projItem {
         flex-direction: column;
