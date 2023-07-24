@@ -94,7 +94,7 @@ span{
 }
 .titlePic .profile-pic{
     width: 50%;
-    margin-left: 100%;
+    margin-left: 50%;
     margin-bottom:50%;
     border-radius: 50%;
     border: 5px solid blue;
@@ -232,11 +232,14 @@ footer#contact p#copy {
 }
 
 @media  screen and (max-width:800px){
+    .container{
+        flex-direction: column;
+    }
     .hero {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .about {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .projItem {
         flex-direction: column;
